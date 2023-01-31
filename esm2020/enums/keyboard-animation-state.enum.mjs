@@ -1,0 +1,7 @@
+export var KeyboardAnimationState;
+(function (KeyboardAnimationState) {
+    KeyboardAnimationState["Void"] = "void";
+    KeyboardAnimationState["Visible"] = "visible";
+    KeyboardAnimationState["Hidden"] = "hidden";
+})(KeyboardAnimationState || (KeyboardAnimationState = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoia2V5Ym9hcmQtYW5pbWF0aW9uLXN0YXRlLmVudW0uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9zcmMvY29yZS9zcmMvZW51bXMva2V5Ym9hcmQtYW5pbWF0aW9uLXN0YXRlLmVudW0udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxDQUFOLElBQVksc0JBSVg7QUFKRCxXQUFZLHNCQUFzQjtJQUNoQyx1Q0FBYSxDQUFBO0lBQ2IsNkNBQW1CLENBQUE7SUFDbkIsMkNBQWlCLENBQUE7QUFDbkIsQ0FBQyxFQUpXLHNCQUFzQixLQUF0QixzQkFBc0IsUUFJakMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZW51bSBLZXlib2FyZEFuaW1hdGlvblN0YXRlIHtcclxuICBWb2lkID0gJ3ZvaWQnLFxyXG4gIFZpc2libGUgPSAndmlzaWJsZScsXHJcbiAgSGlkZGVuID0gJ2hpZGRlbidcclxufVxyXG4iXX0=

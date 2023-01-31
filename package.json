@@ -1,0 +1,63 @@
+{
+  "name": "angular-onscreen-material-keyboard",
+  "version": "0.14.0",
+  "description": "This package is forked from ngx-material-keyboard with bug fixes and additional features",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iris0905/angular-onscreen-material-keyboard.git"
+  },
+  "author": "Iris X, Daniel M, Kenneth A",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Iris0905/angular-onscreen-material-keyboard/issues"
+  },
+  "homepage": "https://github.com/Iris0905/angular-onscreen-material-keyboard",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/animations": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "@angular/cdk": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "@angular/common": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "@angular/core": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "@angular/forms": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "@angular/material": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "rxjs": "^6.6.6"
+  },
+  "keywords": [
+    "angular",
+    "angular11",
+    "angular12",
+    "angular13",
+    "angular14",
+    "angular15",
+    "material",
+    "keyboard",
+    "onscreen",
+    "typescript",
+    "ngx"
+  ],
+  "module": "fesm2015/angular-onscreen-material-keyboard.mjs",
+  "es2020": "fesm2020/angular-onscreen-material-keyboard.mjs",
+  "esm2020": "esm2020/angular-onscreen-material-keyboard.mjs",
+  "fesm2020": "fesm2020/angular-onscreen-material-keyboard.mjs",
+  "fesm2015": "fesm2015/angular-onscreen-material-keyboard.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/angular-onscreen-material-keyboard.mjs",
+      "es2020": "./fesm2020/angular-onscreen-material-keyboard.mjs",
+      "es2015": "./fesm2015/angular-onscreen-material-keyboard.mjs",
+      "node": "./fesm2015/angular-onscreen-material-keyboard.mjs",
+      "default": "./fesm2020/angular-onscreen-material-keyboard.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
