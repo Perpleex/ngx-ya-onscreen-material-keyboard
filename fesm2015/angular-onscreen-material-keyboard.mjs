@@ -43,7 +43,7 @@ class MatKeyboardRef {
     /** Marks the keyboard as opened */
     _open() {
         if (!this._afterOpened.closed) {
-            this._afterOpened.next();
+            this._afterOpened.next(true);
             this._afterOpened.complete();
         }
     }
@@ -58,7 +58,7 @@ class MatKeyboardRef {
     /** Cleans up the DOM after closing. */
     _finishDismiss() {
         this._overlayRef.dispose();
-        this._afterClosed.next();
+        this._afterClosed.next(true);
         this._afterClosed.complete();
     }
 }
@@ -746,7 +746,7 @@ class MatKeyboardContainerComponent extends BasePortalOutlet {
             // because it can cause a memory leak.
             const onEnter = this.onEnter;
             this._ngZone.run(() => {
-                onEnter.next();
+                onEnter.next(true);
                 onEnter.complete();
             });
         }
@@ -779,7 +779,7 @@ class MatKeyboardContainerComponent extends BasePortalOutlet {
             .asObservable()
             .pipe(first())
             .subscribe(() => {
-            this.onExit.next();
+            this.onExit.next(true);
             this.onExit.complete();
         });
     }
